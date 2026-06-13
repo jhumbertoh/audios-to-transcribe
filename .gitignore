@@ -1,0 +1,24 @@
+# Archivos de audio
+audios/*.m4a
+audios/*.mp3
+audios/*.wav
+audios/*.opus
+audios/*.flac
+
+# Archivos de transcripción reales (mantener carpeta con ejemplo)
+trancripciones/*.txt
+!trancripciones/ejemplo.txt
+
+# Archivos del sistema
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
